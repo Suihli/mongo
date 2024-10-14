@@ -10,7 +10,7 @@ const PORT = 8080;
 app.use(bodyParser.json());
 
 // Connexion à MongoDB
-mongoose.connect('mongodb://localhost:27017/nom_de_votre_base_de_donnees', {
+mongoose.connect('mongodb://localhost:27017/nom_de_votre_bdd', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
